@@ -11,7 +11,7 @@ public class Inicio {
         PadreOpera kaConsul = new HijaConsultaSaldo();
         kaConsul.setSaldo(500);
         while (chi) {
-            System.out.println("PorFavor seleccione una opción: ");
+            System.out.println("PorFavor seleccione una opción:");
             System.out.println("1. Consulta de saldo");
             System.out.println("2. Retiro de Efectivo");
             System.out.println("3. Deposito en efectivo");
