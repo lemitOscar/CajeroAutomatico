@@ -1,6 +1,7 @@
 package main;
 
 import java.util.Scanner;
+
 import operaciones.*;
 
 
@@ -8,8 +9,8 @@ public class Inicio {
 
     public static void main(String[] args) {
         boolean chi = true;
-        PadreOpera kaConsul = new HijaConsultaSaldo();
-        kaConsul.setSaldo(500);
+        HijaConsultaSaldo hijaConsultaSaldo = new HijaConsultaSaldo();
+        hijaConsultaSaldo.setSaldo(500);
         while (chi) {
             System.out.println("PorFavor seleccione una opción:");
             System.out.println("1. Consulta de saldo");
@@ -20,7 +21,7 @@ public class Inicio {
             int sel = read.nextInt();
             switch (sel) {
                 case 1:
-                    kaConsul.Transacciones();
+                    hijaConsultaSaldo.Transacciones();
                     break;
                 case 2:
                     PadreOpera kateRet = new HijaRetiro();
