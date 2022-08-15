@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 import operaciones.*;
 
+/**
+ * @author  Oscar
+ */
 
 public class Inicio {
 
